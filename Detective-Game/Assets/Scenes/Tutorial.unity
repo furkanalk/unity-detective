@@ -256,7 +256,7 @@ GameObject:
   - component: {fileID: 605858666}
   - component: {fileID: 605858665}
   m_Layer: 0
-  m_Name: CAM
+  m_Name: CINCAM
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -541,7 +541,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 1
+  m_Constraints: 4
 --- !u!1 &1334025835
 GameObject:
   m_ObjectHideFlags: 0
