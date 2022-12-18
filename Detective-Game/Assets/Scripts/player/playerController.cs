@@ -28,10 +28,10 @@ public class playerController : MonoBehaviour
 
         transform.Translate(Vector3.right * horizontalInput * Time.deltaTime * walkSpeed);
 
-        checkIfPlayerJumped();
+        checkifPlayerJumped();
     }
 
-    void OnCollisionEnter(Collision collider)
+    void OnCollisionEnter2D(Collision2D collider)
     {
         if(collider.gameObject.CompareTag("Ground"))
         {
@@ -39,7 +39,7 @@ public class playerController : MonoBehaviour
         }
     }
 
-    void checkIfPlayerJumped()
+    void checkifPlayerJumped()
     {
         if(!isGrounded)
         {
