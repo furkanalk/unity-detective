@@ -46,7 +46,7 @@ public class playerController : MonoBehaviour
             return;
         }
 
-        if (Input.GetKeyDown(KeyCode.UpArrow))
+        if (Input.GetKeyDown(KeyCode.W))
         {
             isGrounded = false;
             rbPlayer.AddForce(Vector3.up * jumpForce, ForceMode2D.Impulse);
